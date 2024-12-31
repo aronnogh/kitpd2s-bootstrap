@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{font-family: Roboto Slab;}
+
+a{
+    text-decoration: none;
+}
+
+html, body{
+    background-color: #d0d8b8;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+
+button{
+    background: currentColor;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+::selection{
+    background-color: #ffc107;
+    color: #000;
+}
+
+
+/* ========================== BREAKPOINTS ========================== */
+
+/* For small devices */
+@media screen and (max-width: 575px) {}
+
+@media screen and (min-width: 576px) {}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {}
+
+/* For large devices */
+@media screen and (min-width: 992px) {}
